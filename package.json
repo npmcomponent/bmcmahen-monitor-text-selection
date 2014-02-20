@@ -1,0 +1,13 @@
+{
+  "name": "bmcmahen-monitor-text-selection",
+  "description": "emit events for selection and end-selection of text for a given element",
+  "version": "0.1.0",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "yields-on-select": "git://github.com/npmcomponent/yields-on-select.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "bmcmahen-on-deselect": "git://github.com/npmcomponent/bmcmahen-on-deselect.git"
+  },
+  "license": "MIT"
+}

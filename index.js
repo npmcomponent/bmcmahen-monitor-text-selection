@@ -1,6 +1,6 @@
-var Emitter = require('emitter');
-var selected = require('on-select');
-var deselected = require('on-deselect');
+var Emitter = require('component-emitter');
+var selected = require('yields-on-select');
+var deselected = require('bmcmahen-on-deselect');
 
 module.exports = function(el){
   var emitter = new Emitter();
